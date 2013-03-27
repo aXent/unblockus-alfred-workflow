@@ -11,13 +11,13 @@ Simple alfred workflow to activate unblockus dns servers.
 
 <code>unblock off</code>
 
-![image](https://raw.github.com/aXent/unblockusalfredworkflow/master/screenshot2.png)
+![image](https://raw.github.com/aXent/unblockusalfredworkflow/master/screenshot4.png)
 
 <code>unblock status</code></pre>
 
 ![image](https://raw.github.com/aXent/unblockusalfredworkflow/master/screenshot3.png)
 
-![image](https://raw.github.com/aXent/unblockusalfredworkflow/master/screenshot4.png)
+![image](https://raw.github.com/aXent/unblockusalfredworkflow/master/screenshot2.png)
 
 ~~~~
 
