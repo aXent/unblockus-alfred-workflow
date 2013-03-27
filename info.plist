@@ -58,7 +58,7 @@
 				<key>keyword</key>
 				<string>unblock</string>
 				<key>subtext</key>
-				<string>{query}</string>
+				<string>Toggle unblockus service on and off</string>
 				<key>text</key>
 				<string>Unblock</string>
 				<key>withspace</key>
