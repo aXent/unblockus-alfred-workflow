@@ -1,7 +1,8 @@
 #Unblockus alfred workflow
 ![image](https://raw.github.com/aXent/unblockusalfredworkflow/master/screenshot.png)
 
-Simple alfred workflow to activate unblockus dns servers.
+Simple alfred workflow to activate/deactivate unblockus dns servers.
+**Currently this will only adjust the DNS settings of your Wi-Fi. Will add more options later.**
 
 3 simple commands
 
@@ -19,6 +20,3 @@ Simple alfred workflow to activate unblockus dns servers.
 
 ![image](https://raw.github.com/aXent/unblockusalfredworkflow/master/screenshot2.png)
 
-~~~~
-
-**Currently this will only adjust the DNS settings of your Wi-Fi. Will add more options later.**
