@@ -17,6 +17,17 @@
 				<string></string>
 			</dict>
 		</array>
+		<key>640E2D62-49A5-4702-ACEA-E25EB42FD285</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>0873A52D-C4C1-4953-BED7-994F6BC4E2E4</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
 		<key>DB16C77F-018F-4384-A831-FB58D24EC9E6</key>
 		<array>
 			<dict>
@@ -42,21 +53,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>escaping</key>
-				<integer>63</integer>
-				<key>script</key>
-				<string>sh ./unblockus.sh {query}</string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>0873A52D-C4C1-4953-BED7-994F6BC4E2E4</string>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>argumenttype</key>
 				<integer>1</integer>
 				<key>keyword</key>
@@ -72,6 +68,29 @@
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
 			<string>DB16C77F-018F-4384-A831-FB58D24EC9E6</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
+				<key>hotstring</key>
+				<string></string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>640E2D62-49A5-4702-ACEA-E25EB42FD285</string>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -96,12 +115,32 @@
 			<key>uid</key>
 			<string>9873A051-3742-4689-99C4-49E052773099</string>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>escaping</key>
+				<integer>63</integer>
+				<key>script</key>
+				<string>sh ./unblockus.sh {query}</string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>0873A52D-C4C1-4953-BED7-994F6BC4E2E4</string>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
 	<key>uidata</key>
 	<dict>
 		<key>0873A52D-C4C1-4953-BED7-994F6BC4E2E4</key>
+		<dict>
+			<key>ypos</key>
+			<real>130</real>
+		</dict>
+		<key>640E2D62-49A5-4702-ACEA-E25EB42FD285</key>
 		<dict>
 			<key>ypos</key>
 			<real>130</real>
@@ -114,7 +153,7 @@
 		<key>DB16C77F-018F-4384-A831-FB58D24EC9E6</key>
 		<dict>
 			<key>ypos</key>
-			<real>130</real>
+			<real>240</real>
 		</dict>
 	</dict>
 	<key>webaddress</key>
